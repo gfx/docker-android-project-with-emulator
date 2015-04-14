@@ -6,7 +6,7 @@ No `ant`, `maven`, nor `android-ndk` are included.
 ## Included
 
 * JDK 8
-* https://registry.hub.docker.com/u/gfx2015/android-/
+* https://registry.hub.docker.com/u/gfx2015/android/
 * Android emulator x84\_64 system image (API level 22)
 
 # Maintainance
