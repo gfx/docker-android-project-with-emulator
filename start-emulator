@@ -1,0 +1,4 @@
+#!/bin/bash
+
+emulator -avd test -no-skin -no-audio -no-window &
+./wait-for-emulator
