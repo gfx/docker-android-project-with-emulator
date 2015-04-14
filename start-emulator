@@ -1,4 +1,5 @@
 #!/bin/bash
+AVD=test
 
-emulator -avd test -no-skin -no-audio -no-window &
+emulator-arm -avd $AVD -no-skin -no-audio -no-window &
 wait-for-emulator
