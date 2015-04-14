@@ -9,6 +9,11 @@ No `ant`, `maven`, nor `android-ndk` are included.
 * https://registry.hub.docker.com/u/gfx2015/android-/
 * Android emulator x84\_64 system image (API level 22)
 
+# Maintainance
+
+* Just rebuild it when Android SDK is updated
+* Update the image id accodding to `android list sdk --all --extended`
+
 # Author
 
 FUJI Goro (gfx) <g.psy.va+github@gmail.com>
