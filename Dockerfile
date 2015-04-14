@@ -1,4 +1,4 @@
-FROM gfx2015/docker-android-project
+FROM gfx2015/android
 
 MAINTAINER FUJI Goro <g.psy.va+github@gmail.com>
 
