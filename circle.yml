@@ -1,0 +1,15 @@
+machine:
+    services:
+        - docker
+
+dependencies:
+    cache_directories:
+        - "~/cache"
+    override:
+        - docker --version
+        - docker info
+        - docker build -t test .
+
+test:
+    override:
+        - docker run test
