@@ -1,4 +1,4 @@
-# Dockerfile for Android Projects
+# Dockerfile for Android Projects with Emulators [![Circle CI](https://circleci.com/gh/gfx/docker-android-project-with-emulator.svg?style=svg)](https://circleci.com/gh/gfx/docker-android-project-with-emulator)
 
 This is a Dockerfile to make minumum images for Android projects.
 No `ant`, `maven`, nor `android-ndk` are included.
@@ -7,7 +7,7 @@ No `ant`, `maven`, nor `android-ndk` are included.
 
 * JDK 8
 * https://registry.hub.docker.com/u/gfx2015/android/
-* Android emulator x84\_64 system image (API level 22)
+* Android emulator ARM system image (API level 23)
 
 # Maintainance
 
